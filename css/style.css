@@ -1,0 +1,121 @@
+h1 {
+	text-align: center;
+	color: green;
+}
+.wrapper {
+	background-color: salmon;
+	margin: 50px auto;
+	width: 1200px;
+}
+#wrapperInl {
+	background-color: greenyellow;
+}
+#wrapperTbl {
+	background-color: salmon;
+}
+.mainMenu {
+	display: table-cell;
+	outline: 2px solid red;
+	width: 400px;
+}
+.onlyKitchen {
+	outline: 2px solid green;
+	width: 600px;
+}
+.onlyKitchen div{
+	outline: 2px solid green;
+}
+.electroAuto {
+	display: table-cell;
+	outline: 2px solid fuchsia;
+	width: 800px;
+}
+.wrapper,.inBlock {
+	background-color: grey;
+}
+.inChapter {
+	display: inline-block;
+	font-size: 16px;
+}
+.wrapperSegment {
+	font-size: 0;
+}
+.fullIndent {
+	padding: 5px;
+	box-sizing: border-box;
+}
+.clr {
+	clear: both;
+}
+.clrLf{
+	clear: left;
+}
+.clrRt {
+	clear: right;
+}
+.inFl {
+	display: block;
+	float: left;
+	background-color: gold;
+}
+.outFl {
+	display: block;
+	float: right;
+	background-color: olive;
+}
+.btn {
+	border: 3px solid greenyellow;
+	border-radius: 10px;
+	padding: 15px 25px;
+	margin: 0 0 0 15px;
+	background-color: grey;
+}
+.btnMain {
+	text-align: center;	
+}
+.conteiner {
+	display: inline-flex;
+}
+.conteinerFlx {
+	flex: 0 1 400px;
+	outline: 2px solid aqua;
+}
+.threeFlx {
+	flex: 0 1 800px;
+}
+.twoFlx {
+	width: 600px;
+	outline: 2px solid salmon;
+}
+.electroAutoTwo{
+	outline: 2px solid fuchsia;
+}
+.electroHome {
+	outline: 2px solid palegreen;
+}
+.conteinerTwo {
+	flex-direction: column;
+}
+.conteinerThree {
+	flex-direction: row;
+}
+.psDo:after {
+	content: "";
+	clear: both;
+}
+.inFl.psDo:after {
+	content: "";
+	clear: left;
+}
+.outFl.psDo:after {
+	content: "";
+	clear: right;
+}
+.conteinerGrdA {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+.conteinerGrdB {
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+}
